@@ -1,0 +1,88 @@
+body{
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: black; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background-color:#2e6ead; 
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  min-height: 605px;
+}
+
+h2, h4{
+  color: #ffffff;
+}
+
+.taskStatus{
+  width : 70px;
+  padding: 10px;
+  font-size: 10px;
+  margin: 0px 15px 0px 2px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+
+.taskStatus:hover:enabled{
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.taskStatus:hover:disabled{
+  background-color: #414954;
+  border: 2px solid #414954;
+}
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 500px;
+}
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.todoListMain .theList {
+  list-style: none;
+  padding-left: 0;
+  width: 588px;
+} 
+.todoListMain .theList li {
+  color: #333;
+  font-weight: bold;
+  vertical-align: middle;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+ul.theList {
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
